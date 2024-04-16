@@ -1,0 +1,46 @@
+Alert Handling
+
+Case Study: Alert Handling
+
+Problem Statement: 
+
+Alert handling 
+
+Handle the alert when user clicks on “Sign in” button without filling any information 
+Handle alert when user clicks on “Forgot Password” link  
+Suggested site: https://mail.rediff.com/cgi-bin/login.cgi  
+
+Detailed Description:
+
+Launch the browser 
+Enter URL: https://rediff.com 
+Click on “Sign in” link.
+Keep all the fields empty 
+Click on Sign In button 
+Fetch the text of Alert and Verify whether correct alert is displayed.
+Close the alert 
+Click on Forgot password link 
+Click on Next button without filling details 
+Fetch the text of Alert and Verify whether correct alert is displayed 
+Close the alert and Navigate back to the webpage
+Click on “Privacy Policy” link which there at the bottom of the page
+Verify whether respective page is displayed in new tab
+Close the new window and close the browser 
+Key Automation Scope: 
+
+Automation Concepts, Selenium Configuration, Web driver Basics 
+Object Identification
+Page Navigation 
+Form Registration Basic 
+Reusable method creation 
+Alert and Window Handling 
+Driver setup and browser capabilities 
+Test validation
+
+
+
+
+output:-----
+Alert text of Login window-Test-1 Passed
+Alert text of Frogot Password window-Test-2 Passed
+Opened in new window-Test-3 passed
